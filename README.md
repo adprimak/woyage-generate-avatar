@@ -5,18 +5,12 @@ This FastAPI service accepts an MP3 file, uses a lip-sync model to generate a sp
 ## Setup
 
 1. Clone the fantasy-talking repo inside this project.
-2. Add AWS credentials to your environment or ~/.aws/credentials.
-3. Place the avatar image in `static/avatar.png`.
+2. Download models as per https://github.com/Fantasy-AMAP/fantasy-talking/blob/main/README.md#model-download
+3. Add AWS credentials to your environment or ~/.aws/credentials.
+4. Ensure the avatar image is placed in `static/avatar.png`.
 
 ## Run Locally
 
 ```bash
 uvicorn app.main:app --reload
-```
-
-## Build with Docker
-
-```bash
-docker build -t woyage-backend .
-docker run -p 8000:8000 woyage-backend
 ```
