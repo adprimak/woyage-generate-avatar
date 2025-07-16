@@ -35,11 +35,12 @@ pip install -r requirements.txt
 pip install -r fantasy-talking/requirements.txt
 ```
 
-### Step 7: Add AWS credentials to your environment.
+### Step 7: Add AWS credentials to .env.
 ```bash
-export AWS_ACCESS_KEY_ID=your-access-key-id
-export AWS_SECRET_ACCESS_KEY=your-secret-access-key
-export AWS_DEFAULT_REGION=us-east-1
+BUCKET_NAME=your-bucket-name
+AWS_ACCESS_KEY_ID=your-access-key-id
+AWS_SECRET_ACCESS_KEY=your-secret-access-key
+AWS_DEFAULT_REGION=us-east-1
 ```
 
 ### Step 8: Ensure the avatar image is placed in `static/avatar.png`.
