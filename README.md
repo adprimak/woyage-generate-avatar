@@ -13,10 +13,9 @@ cd woyage-generate-avatar
 ### Step 2: Clone the fantasy-talking repo
 ```bash
 git clone https://github.com/Fantasy-AMAP/fantasy-talking
-cd fantasy-talking
 ```
 
-### Step 3: Download models to fantasy-talking/models/ as documented [here](https://github.com/Fantasy-AMAP/fantasy-talking/blob/main/README.md#model-download)
+### Step 3: Download models to woyage-generate-avatar/models/ as documented [here](https://github.com/Fantasy-AMAP/fantasy-talking/blob/main/README.md#model-download)
 
 ### Step 4: Create a virtual environment
 ```bash
